@@ -1,0 +1,17 @@
+ul{
+    list-style: none;
+    text-align: left;
+    background-color: rgba(175, 175, 170, 0.6);
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+ul li{
+    line-height: 35px;
+    text-transform: capitalize;
+}
+
+ul li img{
+    margin-bottom: -15px;
+}
