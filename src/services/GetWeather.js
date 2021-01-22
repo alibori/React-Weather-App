@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import {API_KEY, API_URL} from './settings'
 
 export default function GetWeather({city}){
