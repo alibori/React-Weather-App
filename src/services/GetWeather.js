@@ -1,7 +1,7 @@
-const apiKey = 'f2fe3d64231c5b0d14cf4e839a02d453'
+import {API_KEY, API_URL} from './settings'
 
 export default function GetWeather({city}){
-    const apiUrl = `http://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&APPID=${apiKey}`
+    const apiUrl = `${API_URL}/weather?q=${city}&units=metric&APPID=${API_KEY}`
        
     return fetch(apiUrl)
         .then(res => res.json())

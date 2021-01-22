@@ -1,0 +1,13 @@
+.temp{
+    display: inline-block;
+    text-align: right;
+    font-size: 0.6em;
+}
+
+.temp-min{
+    color: blue;
+}
+
+.temp-max{
+    color: red;
+}
